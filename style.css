@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 15px;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+  padding-bottom: 12px;
+  align-items: center;
+}
+#left {
+  display: flex;
+  align-items: center;
+}
+#logo {
+  width: 35.85px;
+  height: 42.75px;
+}
+#rtext {
+  font-size: 18.7544px;
+  line-height: 22px;
+  color: #444bab;
+}
+#listbox {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  line-height: 19px;
+}
+#listbox li {
+  margin-right: 16px;
+}
+#listbox li a {
+  text-decoration: none;
+  color: #4f516b;
+  font-size: 16px;
+}
+#right {
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 19px;
+}
+#log {
+  padding: 4px 24px;
+  border: 1px solid #444bab;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+#trial {
+  background: linear-gradient(92.85deg, #444bab 3.19%, #3e8ebc 100%);
+  border-radius: 6px;
+  border: 1px solid #444bab;
+  padding: 4px 30px;
+  color: white;
+}
+#head {
+  text-align: center;
+  padding-block: 32px;
+}
+#head1 {
+  color: #3e8ebc;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+#head2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #393939;
+}
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 390px);
+  overflow: hidden;
+  row-gap: 20px;
+  column-gap: 10px;
+  padding-inline: 8px;
+}
+.box {
+  /* border: 2px solid black; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+#fig {
+  width: 376px;
+  height: 218px;
+  /* border: 2px solid black; */
+  position: relative;
+  margin-bottom: 12px;
+}
+.box img {
+  width: 376px;
+  height: 218px;
+  /* border: 2px solid black; */
+}
+.box .title {
+  position: absolute;
+  background: #61a2c8;
+  border-radius: 34.5px;
+  max-width: fit-content;
+  padding: 2px 7px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  right: 7px;
+  bottom: -10px;
+}
+.box .details {
+  font-weight: 600;
+  font-size: 24px;
+  color: #4f516b;
+}
+.box .date {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9a9a9b;
+  margin-block: 6px;
+}
+.box .author {
+  font-weight: 600;
+  font-size: 18px;
+  background: linear-gradient(180deg, #444bab 0%, #3e8ebc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#load{
+    border: 1px solid #B2CCE3;
+    border-radius: 30.5px;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(180deg, #444BAB 0%, #3E8EBC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-clip: text;
+     width: fit-content;
+     padding: 5px 20px;
+     display: block;
+     margin: 12px auto;
+     cursor: pointer;
+}
+
+/* ------Footer part------->>>>>>>>>>>>>>>>>>>>>>>> */
+#ftext{
+    display: flex;
+    width:100%;
+    box-shadow: inset 0px 6px 5px #EBECFF;
+    gap: 22px;
+    margin-block: 15px;
+}
+.left,.right{
+    /* border: 2px solid black; */
+    padding: 8px;
+}
+.right{
+    position: relative;
+    
+}
+#ltext1{
+    font-weight: 600;
+font-size: 30px;
+color: #4F516B;
+margin-bottom:7px;
+}
+#ltext2{
+    font-weight: 400;
+font-size: 20px;
+color: #505050;
+margin-bottom: 7px;
+}
+#lbox{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 10px;
+}
+#lbox ul{
+    list-style-type: none;
+  
+}
+#lbox li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4F516B;
+    margin-bottom: 16px;
+}
+#rtext1{
+    margin-block: 7px;
+    color:#505050;
+}
+#icons ion-icon{
+    width: 30px;
+   height: 30px;
+   margin: 4px 8px;
+   background: #FAFAFB;
+}
+#chatbox{
+    display: flex;
+    /* border: 2px solid black; */
+    width: fit-content;
+    padding:5px 8px;
+    position: absolute;
+    bottom: 0px;
+    right:120px;
+    cursor: pointer;
+    background: #3A3F8E;
+    border-radius: 10px 10px 0px 0px;
+   color: rgb(224, 224, 224);
+   gap: 6px;
+}
+#end_text{
+    text-align: center;
+    color: #66747B;
+    font-weight: 400;
+font-size: 18px;
+ margin-block: 20px;
+}
